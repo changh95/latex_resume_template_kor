@@ -1,0 +1,283 @@
+%-------------------------
+% Resume in Latex
+% Original Author : Sourabh Bajaj
+% Adaptation : Hyunggi Chang
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{amsmath}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-2pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSummary}[1]{
+  \item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      #1
+    \end{tabular*}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeEmployment}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeProject}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} \\
+      \small{#2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeResearch}[5]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} {\small #4 \vspace{-2pt}} & \textit{\small #5} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeTalk}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSkills}[1]{
+  \item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      #1
+    \end{tabular*}
+}
+
+\newcommand{\resumeCommunity}[3]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\newcommand{\resumeEmploymentListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeEmploymentListEnd}{\end{itemize}}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://changh95.github.io}{\Large Your Name}} & Github: YourGithubID $|$ SlideShare: YourSlideShare \\
+  \href{http://changh95.github.io}{http://YourGithubID.github.io} & Email : \href{mailto:YourEmail@gmail.com}{YourEmail@gmail.com} \\
+  {} & Mobile : (+82) 010-Your-Phone
+\end{tabular*}
+
+%-----------Summary-----------------
+\section{Summary}
+    \resumeSummary{
+    My main interest lies at [Your interest areas]. \\ 
+    My favourite applications are [Your favourite application areas] . \\ 
+    I am a [Your personality and traits].
+    }
+
+%-----------EXPERIENCE-----------------
+\section{Employment}
+  \resumeEmploymentListStart
+    \resumeEmployment
+      {[Company1]}{Seoul, South Korea}
+      {[Role1] (Full-time)}{Apr. 20XX - Present}
+        \resumeItemListStart
+            \resumeItem{[Role1] with \href{https://www.google.com}{\color{blue} [some Link]}.}
+            \resumeItem{[Role2].}
+            \resumeItem{[Role3].}
+        \resumeItemListEnd   
+        
+    \resumeEmployment
+      {[Company2]}{London, UK}
+      {[Role2] (Part-time)}{Oct. 20XX - Dec. 20XX}
+      \resumeItemListStart
+          \resumeItem{[Role1].}
+      \resumeItemListEnd
+      
+  \resumeEmploymentListEnd
+
+%-----------Projects-----------------
+
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeProject
+      {[Major Project]}
+         {[Project Description].}
+         \resumeItemListStart
+             \resumeItem{[Major role] \\
+             \textbf{Key achievements}: \\ 
+             1. [Description1] \\
+             2. [Description2] \\
+             3. [Description3]}
+             \resumeItem{[Minor role1]}
+             \resumeItem{[Minor role2]}
+         \resumeItemListEnd
+    
+    \resumeProject
+      {[Project]}
+      {[Project Description]}
+      \resumeItemListStart
+        \resumeItem{[Role1]}
+        \resumeItem{[Role2]}
+        \resumeItem{[Role3]}
+    \resumeItemListEnd
+    
+    \resumeProject
+      {[Minor Project]}
+    {[Project Description]}
+
+  \resumeSubHeadingListEnd
+
+%-----------Skills-----------------
+
+\section{Skills}
+  \resumeSubHeadingListStart
+    \resumeSkills{\textbf{Programming} - [Programming language 1], [Programming language 2]}
+    \resumeSkills{\textbf{Frameworks} - [Framework 1], [Framework 2]}
+    \resumeSkills{\textbf{[Some skills]} - [Some skills1], [Some skills 2]}
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {[Your Grad School]}{Seoul, South Korea}
+      {[Degree name] [Course name] [Grade]}{Mar. 20XX -- Dec. 20XX}
+      \resumeItemListStart
+          \resumeItem{[Subjects]}
+      \resumeItemListEnd
+    \resumeSubheading
+      {[Your University]}{Seoul, South Korea}
+      {[Degree name] [Course name] [Grade])}{Mar. 20XX -- Dec. 20XX}
+      \resumeItemListStart
+          \resumeItem{[Subjets]}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Research Experiences}
+  \resumeSubHeadingListStart
+
+    \resumeResearch
+      {[Lab Name], [School name]}{Seoul, South Korea}
+      {[Position] (Advisor: [Name of Lab head])}{}{Jan. 20XX - Mar. 20XX}
+    \resumeResearch
+      {[Lab Name], [School name]}{Seoul, South Korea}
+      {[Position] (Advisor: [Name of Lab head])}{}{Jan. 20XX - Sept. 20XX}
+
+  \resumeSubHeadingListEnd
+
+%-----------Talks-----------------
+\section{Conference Talks}
+    \resumeSubHeadingListStart
+    
+        \resumeTalk{[Conference name]}{20XX}
+            \resumeItemListStart
+                \resumeItem{[Talk details]}
+            \resumeItemListEnd
+
+        \resumeTalk{[Conference name]}{20XX}
+            \resumeItemListStart
+                \resumeItem{[Talk details]}
+            \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+    
+%-----------Papers-----------------
+\section{Papers}
+    \resumeSubHeadingListStart
+        \resumeItem{[\textbf{Paper Name}] [Authors] [Journal Name] [Other citation details}
+        \resumeItem{[\textbf{Paper Name}] [Authors] [Journal Name] [Other citation details}
+        \resumeItem{[\textbf{Paper Name}] [Authors] [Journal Name] [Other citation details}
+    \resumeSubHeadingListEnd
+
+%-----------Community-----------------
+\section{Community}
+    \resumeSubHeadingListStart
+        \resumeCommunity{[Role]}{20XX -- Present}
+        {[Community Name]}
+        
+        \resumeCommunity{[Role]}{20XX -- Present}
+        {[Community Name]}
+        \resumeItemListStart
+            \resumeItem{[Some Event information]}
+            \resumeItem{[Some Group information}
+        \resumeItemListEnd    
+
+    \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
