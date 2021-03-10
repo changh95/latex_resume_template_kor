@@ -1,1 +1,20 @@
 # resume_template_kor
+
+- 이력서 (CV/Resume)
+- 경력기술서
+
+...를 LaTeX로 이쁘게 적을 수 있게 해주는 템플릿 :smile:
+
+# 사용 방법
+
+`/Curriculum_Vitae_Template` 폴더에는 **이력서 템플릿**이 있습니다. [파일](https://github.com/changh95/resume_template_kor/blob/main/Curriculum_Vitae_Template/resume.tex), [미리보기](https://github.com/changh95/resume_template_kor/blob/main/Curriculum_Vitae_Template/resume_template.pdf)
+
+`/Work_Experiences_Template` 폴더에는 **경력기술서 템플릿**이 있습니다. [파일](https://github.com/changh95/resume_template_kor/blob/main/Work_Experiences_Template/work_experience.tex), [미리보기](https://github.com/changh95/resume_template_kor/blob/main/Work_Experiences_Template/Work_experiences.pdf)
+
+# 예시
+
+(예시는 곧 만들어서 올릴게요!)
+
+# 라이센스
+
+이 repo에 있는 모든 tex 파일은 [sb2nov의 CV 템플릿](https://github.com/sb2nov/resume)을 수정하여 만들었고, 기존의 MIT 라이센스를 유지합니다.
