@@ -22,7 +22,7 @@
 
 ## 경력 기술서
 
-![we](https://github.com/changh95/latex_resume_template_kor/blob/main/work_experience_img.png)
+![we](https://github.com/changh95/latex_resume_template_kor/blob/main/work_experience_img.png?raw=true)
 
 (예시는 곧 만들어서 올릴게요!)
 
