@@ -11,6 +11,9 @@
 
 `/Work_Experiences_Template` 폴더에는 **경력기술서 템플릿**이 있습니다. [파일](https://github.com/changh95/resume_template_kor/blob/main/Work_Experiences_Template/work_experience.tex), [미리보기](https://github.com/changh95/resume_template_kor/blob/main/Work_Experiences_Template/Work_experiences.pdf)
 
+1. 파일을 다운로드한다.
+2. Tex 에디터를 통해 수정하고 렌더링한다. Tex 에디터에 대해 잘 모르신다면 [Overleaf](https://www.overleaf.com)을 추천드립니다.
+
 # 예시
 
 (예시는 곧 만들어서 올릴게요!)
