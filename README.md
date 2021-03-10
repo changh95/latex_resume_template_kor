@@ -1,4 +1,4 @@
-# resume_template_kor
+# latex_resume_template_kor
 
 - 이력서 (CV/Resume)
 - 경력기술서
