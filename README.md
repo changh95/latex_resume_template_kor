@@ -11,9 +11,7 @@ OpenAI Prism을 이용해서 빠르게 제작해보세요!
 
 새 프로젝트를 생성하신 후, **이력서 템플릿** 또는 **경력기술서 템플릿** 파일을 복사/붙혀넣기 하신 후 ctrl + s 를 눌러 렌더링 하시면 됩니다.
 
-[이력서 만들기](https://prism.openai.com/?u=ff6380d6-5979-4f51-aa0b-f3f1c4aec972&pg=1&m=main.tex&d=7)
-
-[경력 기술서 만들기](https://prism.openai.com/?u=ff6380d6-5979-4f51-aa0b-f3f1c4aec972&pg=1&m=main.tex&d=7)
+[이력서 & 경력 기술서 만들기](https://prism.openai.com/?u=08bfba2d-1b3c-453c-aa77-b07af011e646&pg=1&m=resume.tex&d=7)
 
 `/Curriculum_Vitae_Template` 폴더에는 **이력서 템플릿**이 있습니다. [파일](https://github.com/changh95/resume_template_kor/blob/main/Curriculum_Vitae_Template/resume.tex)
 
